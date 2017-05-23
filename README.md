@@ -19,5 +19,5 @@ INITIALIZE tempVariable to inString
      FOR CONDITION
 
      NEXT
-
+SORTING 
      
