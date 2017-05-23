@@ -1,7 +1,7 @@
 # java-bootcamp
 
 INITIALIZE inString to empty
-
+INITIALIZE tempVariable to inString
 WHILE inString has less than 5 characters
 
      GET one character INPUT
@@ -10,14 +10,17 @@ WHILE inString has less than 5 characters
 
 END WHILE
 
-//inString contains c d y z 1
-
-FOR CONDITION 
-
-INITIALIZE tempVariable to inString
-
-     FOR CONDITION
-
-     NEXT
-
+FOR position first element to (length of inString - 1)
+     SET TempVariable to element in inString 
+     //tempVariable='c'
+     FOR EACH element in tempVariable
+	     IF element in tempVariable > element in inString
+			PUT element inString at the end of tempVariable
+		ELSE 
+			FOR EACH element in TempVariable
+			IF element in inString > element in tempVariable
+				PUT element in inString before last element in tempVariable
+			NEXT
+	NEXT
+NEXT
      
