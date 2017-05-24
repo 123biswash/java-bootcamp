@@ -1,0 +1,41 @@
+#2. 
+open file
+
+while(end of file)
+
+   int purchase_amount, sales_tax, total_amount_due, tax_code
+
+   string customer_name
+
+   get customer number, assign it to customer_number
+
+   get customer name, assign it to customer_name
+
+   get sales amount , assign it to sales_amount
+
+   get tax_code, assign it to tax_code
+
+   IF tax_code ==0 THEN
+
+      sales_tax=0
+
+   ELSE IF tax_code ==1 THEN
+
+      sales_tax=3
+
+   ELSE IF tax_code ==2 THEN
+
+      sales_tax=5
+
+   ELSE IF tax_code ==3 THEN
+
+      sales_tax=7
+
+   ENDIF
+
+    total_amount_due equals (sales_tax times purchase_amount divided by hundred)
+
+  print customer_name, purchase_amount, sales_tax, total_amount_due
+
+ENDOFWHILE
+
