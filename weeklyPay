@@ -1,0 +1,32 @@
+
+#3. 
+open file
+
+
+
+while(end of file)
+
+   int hours_worked, pay_rate, weekly_pay
+
+   get number of hours, assign it to hours_worked
+
+   get pay rate, assign it to pay_rate
+
+   IF hours_worked is greater than 60 hours or pay_rate is more than 25 THEN
+
+        PRINT "Out of range. Weekly pay cannot be calculated"
+
+   ELSE IF hours_worked is greater than 35
+
+       MULTIPLY (hours worked minus 35) by pay_rate and divide by 2
+       ADD the product to  (35 times pay_rate) and assign the sum to weekly_pay 
+
+       PRINT hours_worked, pay_rate, weekly_pay
+
+   ELSE
+
+        MULTIPLY hours_worked and pay_rate and assign it to weekly_pay
+
+        PRINT hours_worked, pay_rate, weekly_pay
+
+ENDOFWHILE
