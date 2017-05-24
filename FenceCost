@@ -1,0 +1,22 @@
+PROMPT user for fence type(Wooden or Chain-link), FenceType
+
+PROMPT user for perimeter of yard (in ft), YardPerimeter 
+
+PROMPT user for number of gates required(should be at least 1), NoOfGates
+
+IF not valid fence type and valid numbers start prompting users from the beginning
+
+DECLARE FenceCost and TaxAmount
+
+IF FenceType is Wooden, multiply YardPerimeter by 25 and STORE it in FenceCost
+
+ELSE multiply YardPerimeter by 15 and STORE it in FenceCost
+
+MULTIPLY NoOfGates by 150 and ADD it to FenceCost
+
+MULTIPLY FenceCost by 6 and DIVIDE by hundred and ADD it to FenceCost
+
+ADD 50 to FenceCost
+
+DISPLAY "The total Fence Cost is", FenceCost
+
