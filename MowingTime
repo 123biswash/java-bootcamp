@@ -1,0 +1,13 @@
+
+PRINT "Calculate_mowing_time"
+
+DECLARE block_length, block_width, house_length, house_width
+PROMPT operator for block_length, block_width
+GET block_length, block_width
+block_area equals block_length times block_width
+PROMPT operator for house_length, house_width
+GET house_length, house_width
+house_area equals house_length times house_width
+mowing_area equals block_area minus house_area
+mowing _time equals mowing_area divide by 2
+PRINT "mowing_time is", mowing_time 
