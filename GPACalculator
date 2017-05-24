@@ -1,0 +1,37 @@
+PROMPT user for number of classes taken, NoOfClasses
+INITIALIZE counter to NoOfClasses
+
+INITIALIZE GPA to 0
+
+INITIALIZE TOTAL to 0 
+
+WHILE (counter is not zero)
+
+      PROMPT user for grade received in the given course number(out of 4.0), GRADE
+
+      IF GRADE=='A' THEN gradePoint is equal to 4.0
+
+      IF GRADE=='B' THEN gradePoint is equal to 3.0
+
+      IF GRADE=='C' THEN gradePoint is equal to 2.0
+
+      IF GRADE=='D' THEN gradePoint is equal to 1.0
+
+      IF GRADE=='F' THEN gradePoint is equal to 0.0
+
+      ADD gradePoint to TOTAL
+END OF WHILE
+
+GPA is equal to TOTAL DIVIDED by NoOfClasses
+
+IF GPA is greater than or equal to 3.0 THEN PRINT "Congrats!"
+
+ELSE PRINT "Aw..Fudgewickets!"
+
+
+
+Test cases:
+
+Input: 3, A, A, A Output: "Congrats!"
+
+Input: 2, D, D  Output: "Aw..Fudgewickets"
