@@ -1,17 +1,18 @@
 
+
 Algorithm:
 
 - Prompt user for radius of circle
 
 - User inputs radius of circle, store it in radius
 
-- Ensure the value is a positive integer and if not, start prompting user from the beginning
+- Ensure the value is a positive number and if not, start prompting user from the beginning
 
 - Multiply radius by radius and Pi, and store it in Area
 
 - Display "The area of circle is", Area
 
-
+ 
 
 Pseudocode:
 
@@ -22,11 +23,10 @@ DECLARE radius
 DECLARE area
 
 DO WHILE input is not a positive number
-PROMPT user for radius of circle, store it in radius
+       PROMPT user for radius of circle, store it in radius
 
 END OF DOWHILE
 
 MULTIPLY radius by radius and Pi, store it in area
 
 DISPLAY "The area of circle is", area
-
