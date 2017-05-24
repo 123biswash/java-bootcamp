@@ -1,0 +1,14 @@
+DECLARE variables roofLength, roofWidth, roofInches, roofArea, rainVolume
+
+DO WHILE input is not a positive number
+	PROMPT user for input "Enter roofLength", store it in roofLength
+	PROMPT user for input "Enter roofWidth", store it is roofWidth
+	PROMPT user for input "Enter rainfall inches", store it in rainInches
+END OF DOWHILE
+
+MULTIPLY roofLength by 12 and store it in roofLength
+MULTIPLY roofWidth by 12 and store it in roofWidth
+MULTIPLY roofWidth by roofLength and store it in roofArea
+MULTIPLY roofArea by rainInches and store it in rainVolume
+DIVIDE rainVolume by 231 and store it in rainVolume
+PRINT "The gallons of rain that fell:", rainVolume
